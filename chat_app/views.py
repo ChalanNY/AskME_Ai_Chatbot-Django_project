@@ -20,7 +20,7 @@ def ask_question(request):
             try:
                 response = model.generate_content(question)
                 markdown_text = response.text
-                response_html = markdown.markdown(markdown_text)  # ✅ Convert to HTML
+                response_html = markdown.markdown(markdown_text)
             except Exception as e:
                 response_html = f"<p>Error: {str(e)}</p>"
 
