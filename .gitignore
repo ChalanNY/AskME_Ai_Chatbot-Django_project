@@ -1,0 +1,81 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django specific
+*.log
+db.sqlite3
+media/
+staticfiles/
+*.pot
+*.pyc
+
+# Ignore environment variables file
+.env
+
+# Ignore local settings
+local_settings.py
+
+# Ignore virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore VSCode/IDE/editor config
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore compiled C files
+*.so
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore testing artifacts
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+test_output/
+
+# Ignore pip cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore mypy and Pyre type checker files
+.mypy_cache/
+.pyre/
+
+# Ignore pyenv and pipenv files
+.python-version
+Pipfile.lock
+
+# Ignore dotenv backup
+.env.*
+
+# Optional: if you're using Jupyter notebooks
+.ipynb_checkpoints/
+
+# SSH/private keys or certs
+*.pem
+*.key
+*.crt
+*.pfx
+
+# Database exports (SQL dumps)
+*.sql
+
+# Misc config or backup files
+*.bak
+*.zip
+*.tar.gz
