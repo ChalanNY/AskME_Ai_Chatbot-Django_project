@@ -16,6 +16,18 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .author {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: #555;
+        letter-spacing: 0.5px;
         }
 
         h1 {
@@ -67,9 +79,13 @@
         }
 
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="container">
+        <div class="author">By Chalan NY</div>
+
         <h1>AskME AI Chatbot</h1>
         <form method="post">
             {% csrf_token %}
